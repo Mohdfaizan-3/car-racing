@@ -1,0 +1,35 @@
+*, *::before, *::after{box-sizing: inherit;}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.score {
+  width: 100%;
+  background-color: black;
+  height: 70px;
+}
+
+.game {
+  width: 400px;
+  height: 100vh;
+  position: relative;
+  background-color: black;
+  margin: auto;
+}
+
+.starts {
+  background-color: red;
+  padding: 20px;
+  color: wheat;
+  height: 150px;
+  width: 600px;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 32px;
+  z-index: 1;
+}
